@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_fragment_main_affairs_elvgroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv_fragment_main_affairs_elvgroup"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@mipmap/triangle_right"/>
+        <TextView
+            android:id="@+id/tv_fragment_main_affairs_textgroup"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="乡镇名称1"/>
+        <TextView
+            android:id="@+id/tv_count_fragment_main_affairs_textgroup"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16sp"
+            android:text="20"/>
+    </LinearLayout>
+</LinearLayout>
